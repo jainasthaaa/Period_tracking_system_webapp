@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCycle - Period Tracking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>MyCycle</h2>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('calendar') }}">Intuitive Calendar</a>
+        <a href="{{ url_for('prediction') }}">Predict Period</a>
+        <a href="{{ url_for('account') }}">User Account</a>
+    </div>
+    <!-- Main Content -->
+    <main>
+        <!-- Header -->
+        <header>
+            <h1>Welcome to MyCycle</h1>
+            <p>Your Personal Health Companion</p>
+        </header>
+
+        <!-- Sparkling Background -->
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+
+        <!-- Why Track Section -->
+        <section>
+            <h2>Why Track Your Periods?</h2>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='tracking-period.jpg') }}" alt="Why Track Your Periods">
+                <img src="{{ url_for('static', filename='m1.jpeg') }}" alt="Additional Image 1">
+            </div>
+            <p>Tracking your menstrual cycle isn't just about marking dates; it's about understanding your body better and taking control of your health.</p>
+            <p>Period tracking isn’t just for those who menstruate—it’s for anyone who values health, awareness, and self-empowerment. Apps, journals, or simple calendars can be your companions on this journey. 💪❤️ Keep track, stay empowered, and embrace the rhythm of your life! 🌸</p>
+        </section>
+
+        <!-- Features Section -->
+        <section>
+            <h2>Features You'll Love</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='period-tracking.avif') }}" alt="Intuitive Calendar">
+                        <img src="{{ url_for('static', filename='m2.jpeg') }}" alt="Additional Image 2">
+                    </div>
+                    <h3>Intuitive Calendar</h3>
+                    <p>An intuitive calendar is more than just a tool for scheduling—it's a seamless extension of your daily life designed to adapt to your needs. 🗓️✨ It simplifies planning with user-friendly features like drag-and-drop functionality, smart reminders, and personalized suggestions based on your habits. 🤖📋 With the ability to integrate events, tasks, and even health tracking into one cohesive system, an intuitive calendar helps you stay organized without feeling overwhelmed.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='accurate.avif') }}" alt="Accurate Predictions">
+                        <img src="{{ url_for('static', filename='m3.jpeg') }}" alt="Additional Image 3">
+                    </div>
+                    <h3>Accurate Predictions</h3>
+                    <p>Get accurate predictions for your next period and fertile window. Our advanced algorithms analyze your data to provide precise forecasts, helping you plan ahead with confidence.Accurate predictions empower better decision-making by leveraging data, patterns, and insights to foresee outcomes with precision. 📊🔍 They reduce uncertainty, optimize planning, and enhance efficiency in achieving goals. ✅⚡ With accuracy at the core, predictions become a powerful tool for success in any field. 🚀✨</p>
+                </div>
+                <div class="feature-item">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images.jpg') }}" alt="Health Insights">
+                        <img src="{{ url_for('static', filename='m4.jpeg') }}" alt="Additional Image 4">
+                    </div>
+                    <h3>Health Insights</h3>
+                    <p>Receive personalized health insights based on your data. Understand your body better with detailed reports and tips tailored to your unique cycle.Health insights provide valuable information about your physical and mental well-being, empowering you to make informed decisions for a healthier lifestyle. 💪🧠 By analyzing patterns, tracking progress, and identifying areas of improvement, these insights help you prevent potential health issues, manage existing conditions, and achieve your wellness goals. 🩺📈 With actionable data at your fingertips, you can take control of your health journey and unlock your full potential. 🌟🍎</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section>
+            <h2>What Our Users Say</h2>
+            <div class="testimonials">
+                <div class="testimonial-item">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='userimages.jpg') }}" alt="User Testimonial">
+                        <img src="{{ url_for('static', filename='m5.jpeg') }}" alt="Additional Image 5">
+                    </div>
+                    <p>"MyCycle has been a game-changer for me. I feel more in control of my health!" - Jane D.</p>
+                    <p>"Accurate predictions and insightful health tips—this tool has truly improved my daily routine!" - Esha T.</p>
+                </div>
+                <div class="testimonial-item">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='m6.jpeg') }}" alt="User Testimonial">
+                        <img src="{{ url_for('static', filename='m7.jpeg') }}" alt="Additional Image 6">
+                    </div>
+                    <p>"The predictions are so accurate, and the insights are very helpful." - Sarah K.</p>
+                    <p>"This app is super easy to use and has made managing my schedule so much simpler!" - Nessa B.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="call-to-action">
+            <h2>Get Started Today</h2>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='startjourny.jpg') }}" alt="Get Started Today">
+                <img src="{{ url_for('static', filename='m8.jpg') }}" alt="Additional Image 7">
+            </div>
+            <p>Join thousands of women who are taking control of their health with MyCycle.</p>
+            <a href="/signup" class="cta-button">Sign Up Now</a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 MyCycle. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
