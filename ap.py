@@ -48,6 +48,10 @@ with app.app_context():
 def home():
     return render_template('home.html')
 
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
+
 @app.route('/calendar')
 def calendar():
     return render_template('calendar.html')
@@ -84,4 +88,4 @@ def update_account():
     return redirect(url_for('account'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
