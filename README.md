@@ -111,3 +111,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to enhance and bring new technology revolution into this project.
 
+Here's the view of "period tracking system web app"
+[MyCycle - Period Tracking - Google Chrome 2025-01-29 09-16-59.zip](https://github.com/user-attachments/files/18582614/MyCycle.-.Period.Tracking.-.Google.Chrome.2025-01-29.09-16-59.zip)
+
